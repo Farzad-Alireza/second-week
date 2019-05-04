@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    vertical-align: baseline;
+    text-decoration:none;
+    line-height: 1.5em;  
+}
+main { 
+     padding: 2% 2%;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+h3 {
+    opacity: 0.3;
+    text-transform: lowercase;
+}
+
+h4 {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+p {
+    opacity: 0.5;
+}
+li {
+    list-style: none;
+}
+
+.foot-nav p {
+    opacity: 1;
+}
+
+header {
+    background-color:hsl(210, 11%, 86%);
+    display: flex;
+    padding-bottom:30px;
+}
+
+header div {
+    margin: auto 10%;
+}
+
+a {
+    display:block;
+    padding: 5% 1%;  
+}
+nav {
+    padding-left: 10%;
+    font-weight: bold;
+}
+nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+}
+
+a {
+    justify-content: center;
+    padding-right: 2%;
+    box-sizing: border-box;
+    align-items:center;
+}    
+#top-picture {
+    height: 300px;
+    display: flex;
+}
+#top-picture img {
+    flex: 1;
+    object-fit: cover scale-down;
+    max-width: 100%;
+}
+.text-top {
+    margin: 0 10%;
+}
+.text-top article {
+    margin-top: 5%;
+}
+.text-top aside {
+    margin-top: 5%;
+    font-size: 0.8em;
+}
+.text-top {
+    display: flex;
+    justify-content: space-between;
+}  
+.text-top article {
+    flex-basis: 60%;
+    order: 2;}
+.text-top aside {
+    flex-basis: 30%;
+    order: 1;}
+.text-bottom {
+    margin: 0 10%;
+}
+.text-bottom article {
+    margin-top: 5%;
+}
+
+.text-bottom aside {
+    margin-top: 5%;
+    font-size: 0.8em;
+}
+.icons {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.icons a {
+    flex-basis: 35%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;    
+}
+.icons a i {
+    font-size:80px;
+}
+.text-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+.icons a {
+        flex-basis: 20%;
+}
+.text-bottom aside {
+        flex-basis: 30%;
+}
+.text-bottom article {
+        flex-basis: 60%;
+}
+
+footer {
+    padding-left: 10%; 
+    background-color:  rgb(89, 90, 156);
+    color: white; 
+    margin-top: 2%;
+    line-height: 1.5;
+}
+.foot-nav {
+    padding: 5% 0;
+}
+
+.foot-nav {
+    display:block;
+}
+.foot-nav:last-child {
+    display: none;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+.foot-nav {
+    flex-basis: 23%;
+}
+   
+.foot-nav:last-child {
+    display: block;
+}
